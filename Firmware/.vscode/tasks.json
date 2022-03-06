@@ -1,0 +1,74 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: avr-gcc.exe compilar archivo activo",
+            "command": "C:/Users/FC/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-mmcu=atmega328p",
+                ""
+            ],
+            "options": {
+                "cwd": "C:/Users/FC/.platformio/packages/toolchain-atmelavr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Tarea generada por el depurador."
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: avr-gcc.exe compilar archivo activo ver(1)",
+            "command": "C:/Users/FC/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-mmcu=atmega328p",
+                ""
+            ],
+            "options": {
+                "cwd": "C:/Users/FC/.platformio/packages/toolchain-atmelavr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Tarea generada por el depurador."
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: avr-gcc.exe compilar archivo activo ver(2)",
+            "command": "C:/Users/FC/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-mmcu=atmega328p",
+                ""
+            ],
+            "options": {
+                "cwd": "C:/Users/FC/.platformio/packages/toolchain-atmelavr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarea generada por el depurador."
+        }
+    ],
+    "version": "2.0.0"
+}
